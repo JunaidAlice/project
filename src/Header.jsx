@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <>
-      <button className="p-2 bg-slate-700 rounded-full rounded-tr-none absolute right-0 " onClick={handleOpen}>{open ? "x" : "v"}</button>
+      <button className="p-2 bg-slate-950 text-white rounded-full rounded-tr-none absolute right-0 " onClick={handleOpen}>{open ? "x" : "v"}</button>
 
       {open && (
         <div className="text-center  border-blue-500 p-2   border-4 rounded-xl bg-orange-400">
